@@ -42,6 +42,16 @@
     display: none;
 }
 
+/* menu */
+
+.menu-item{
+    padding: 0.5rem 1rem;
+}
+
+.menu-item-mob{
+    display: none;
+}
+
 /* second col */
 
 .second-col{
@@ -98,6 +108,19 @@
     .logo-box-mob{
         justify-content: center;
         padding-top:0.3rem;
+    }
+
+    /* menu */
+
+    .menu-item{
+        padding: 0;
+        display: none;
+    }
+
+    .menu-item-mob{
+        display: block;
+        text-align: center;
+        padding-top: 1rem;
     }
 
     /* second col */

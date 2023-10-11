@@ -17,6 +17,7 @@
 .c-black{color: black;}
 .c-lilac{color: #9792E4;}
 .c-yellow{color:#FDC15F;}
+.c-lightgrey{color:#7a7a7a;}
 
 /*font-size*/
 
@@ -36,6 +37,7 @@
 .f-size60px{font-size: 60px;}
 .f-size70px{font-size: 70px;}
 .f-size1rem{font-size: 1rem;}
+.f-size1-4remf{font-size: 1.4rem;}
 .f-size2rem{font-size: 2rem;}
 .f-size7rem{font-size: 7rem;}
 
@@ -106,6 +108,11 @@
 .padding-b3rem{padding-bottom: 3rem;}
 .padding-b5rem{padding-bottom: 5rem;}
 
+/*padding right*/
+
+.padding-r0-5remf{padding-right:0.5rem;}
+.padding-r1rem{padding-right: 1rem;}
+
 /*border radius*/
 
 .b-radius20px{border-radius: 20px;}
@@ -136,4 +143,10 @@
 
 .row{
     display: flex;
+}
+
+
+.col{
+    display: flex;
+    flex-direction: column;
 }
