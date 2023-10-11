@@ -107,7 +107,7 @@
 .upgrade-row{
     display: flex;
     justify-content: flex-end;
-    height:10vh;
+    height:8vh;
 }
 
 .upgrade-button{
