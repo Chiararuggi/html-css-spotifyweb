@@ -5,6 +5,9 @@
 .bg-lilac{background-color:#9792E4;}
 .bg-white{background-color:white;}
 .bg-black{background-color:#333333;}
+.bg-black1{background-color:black;}
+.bg-black2{background-color: #080b12;}
+.bg-darkblue{background-color: #141922;}
 
 /*color*/
 
@@ -127,4 +130,10 @@
 
 .text-center{
     text-align: center;
+}
+
+/*row*/
+
+.row{
+    display: flex;
 }
