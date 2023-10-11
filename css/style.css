@@ -52,6 +52,32 @@
     display: none;
 }
 
+/* playlist*/
+
+.create-new{
+    display: flex;
+    padding-top:1rem;
+    align-items: center;
+}
+
+.playlist-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.name-playlist{
+    padding-top: 0.8rem;
+    font-size: 13px;
+}
+
+/* second col */
+
+.playlist-section{
+    display: flex;
+    flex-direction: column;
+    padding:0.5rem 1rem;
+}
+
 /* second col */
 
 .second-col{
@@ -121,6 +147,12 @@
         display: block;
         text-align: center;
         padding-top: 1rem;
+    }
+
+    /* playlist */
+
+    .playlist-section{
+        display: none;
     }
 
     /* second col */

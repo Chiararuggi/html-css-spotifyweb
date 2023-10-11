@@ -39,6 +39,7 @@
 .f-size1rem{font-size: 1rem;}
 .f-size1-4remf{font-size: 1.4rem;}
 .f-size2rem{font-size: 2rem;}
+.f-size2-5remf{font-size: 2.5rem;}
 .f-size7rem{font-size: 7rem;}
 
 /*font-weight*/
@@ -112,6 +113,10 @@
 
 .padding-r0-5remf{padding-right:0.5rem;}
 .padding-r1rem{padding-right: 1rem;}
+
+/*padding left*/
+
+.padding-l0-5remf{padding-left:0.5rem;}
 
 /*border radius*/
 
