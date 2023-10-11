@@ -23,6 +23,7 @@
 
 .f-size5px{font-size: 5px;}
 .f-size12px{font-size: 12px;}
+.f-size14px{font-size: 14px;}
 .f-size15px{font-size: 15px;}
 .f-size18px{font-size: 18px;}
 .f-size20px{font-size: 20px;}
@@ -105,12 +106,21 @@
 .padding2-0-5-0rem{padding:2rem 0rem 5rem 0rem;}
 .padding4-0-5-0rem{padding:4rem 0rem 5rem 0rem;}
 
+/*padding top*/
+
+.padding-t1rem{
+    padding-top: 1rem;
+}
+
 /*padding bottom*/
+
+.padding-0-7remf{padding-bottom: 0.7rem;}
 .padding-b3rem{padding-bottom: 3rem;}
 .padding-b5rem{padding-bottom: 5rem;}
 
 /*padding right*/
 
+.padding-r0-7remf{padding-right: 0.7rem;}
 .padding-r0-5remf{padding-right:0.5rem;}
 .padding-r1rem{padding-right: 1rem;}
 
