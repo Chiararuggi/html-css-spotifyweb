@@ -5,6 +5,24 @@
     font-family: sans-serif;
 }
 
+/* custom scroll bar */
+
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #383838; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #696969; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
 /* main */
 
 .main-container{
@@ -23,6 +41,7 @@
     flex-direction: column;
     width: 15rem;
 }
+
 
 /* logo */
 
@@ -100,6 +119,7 @@
     display: flex;
     flex-direction: column;
     width:calc(100% - 15rem);
+    overflow: auto;
 }
 
 /* upgrade row */
@@ -107,7 +127,11 @@
 .upgrade-row{
     display: flex;
     justify-content: flex-end;
-    height:8vh;
+    min-height:9vh;
+    position: fixed;
+    z-index: 999;
+    background-color: #080b129c;
+    width:calc(100% - 15rem);
 }
 
 .upgrade-button{
@@ -116,6 +140,7 @@
     border-radius: 30px;
     width: fit-content;
     align-self: center;
+    margin-right: 1rem;
 }
 
 /* second menu row */
@@ -125,6 +150,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 1vh;
+    padding-top:4.5rem;
 }
 
 .menu-item2{
@@ -134,19 +160,31 @@
     font-weight: bold;
 }
 
-/* recently played */
+/* recently played / created for / popular artist*/
 
-.recently-row{
+.secondcol-row{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
 }
 
-.song-rplayed{
+.square-card{
     display: flex;
     flex-direction: column;
     padding: 0.5rem 1rem;
     width: 16%;
+}
+
+.circle-card{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    width: 16%;
+}
+
+.circle-img{
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .description-song{
@@ -155,8 +193,12 @@
 
 }
 
-.recently-h2{
+.secondcol-h2{
     margin-top: 3rem;
+}
+
+.h2-description{
+    padding: 0.1rem 1rem;
     margin-bottom: 1rem;
 }
 
@@ -167,6 +209,11 @@
     background-color: #282828;
 }
 
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 /* Media query*/
 
@@ -175,9 +222,13 @@
 @media screen and (max-width:992px){
 
     /* second col */
-    /* recently played */
+    /* recently played /created for / popular artist*/
 
-    .song-rplayed{
+    .square-card{
+        width:30%;
+    }
+
+    .circle-card{
         width:30%;
     }
 }
@@ -249,17 +300,25 @@
 
     /* second col */
 
+    .upgrade-row{
+        width: calc(100% - 3rem);
+    }
+
     .second-col{
         width:calc(100% - 3rem);
     }
 
-    /* recently played */
+    /* recently played / created for / popular artist*/
 
-    .song-rplayed{
+    .square-card{
         width:40%;
     }
 
-    .recently-row{
+    .circle-card{
+        width:40%;
+    }
+
+    .secondcol-row{
         justify-content: center;
     }
 
