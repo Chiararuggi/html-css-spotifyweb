@@ -212,6 +212,18 @@
 .footer-row{
     display: flex;
     justify-content: space-between;
+    height:100%;
+}
+
+.footer-img{
+    width: 13%;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+}
+
+.heart-file{
+    display: flex;
+    align-items: center;
 }
 
 
