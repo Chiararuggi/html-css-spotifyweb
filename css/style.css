@@ -210,6 +210,11 @@
     flex-direction: column;
     padding: 0.5rem 1rem;
     width: 16%;
+    position: relative;
+}
+
+.play{
+    display: none;
 }
 
 .circle-img{
@@ -324,6 +329,49 @@
     border: 3px solid #c1c1c1;
     width: 2rem;
     border-radius: 4px 4px 3px 5px;
+}
+
+/* hover*/
+
+.menu-item:hover{
+    color: white;
+}
+
+.menu-item-mob:hover{
+    color: white;
+}
+
+.name-playlist:hover{
+    color: white;
+}
+
+.new-playlist:hover{
+    color: white;
+}
+
+.download-but:hover{
+    color: white;
+}
+
+.upgrade-button:hover{
+    padding: 1rem 2.4rem;
+    font-size: 16px;
+}
+
+.menu-item2:hover{
+    color: white;
+}
+
+.evidence-menu-item:hover{
+    color: white;
+}
+
+.card-img:hover{
+   filter: brightness(50%);
+}
+
+.circle-img:hover{
+    filter: brightness(50%);
 }
 
 /* Media query*/
