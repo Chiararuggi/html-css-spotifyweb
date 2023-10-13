@@ -64,6 +64,18 @@
 
 /* menu */
 
+.home-menu-item{
+    display: flex;
+    color:white;
+    align-items: center;
+}
+
+.green-bar{
+    border: 3px solid #adff2f;
+    height: 40px;
+    margin-right: 0.5rem;
+}
+
 .menu-item{
     padding: 0.5rem 1rem;
 }
@@ -88,6 +100,7 @@
 .name-playlist{
     padding-top: 0.8rem;
     font-size: 13px;
+    font-weight: bold;
 }
 
 .playlist-section{
@@ -157,9 +170,25 @@
 .menu-item2{
     color: #7a7a7a;;
     padding: 0.5rem;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
 }
+
+.evidence-menu-item{
+    display: flex;
+    flex-direction: column;
+    color: #7a7a7a;;
+    padding: 0.5rem;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.secondgreenbar{
+    border: 1px solid #adff2f;
+    width: 2rem;
+    align-self: center;
+}
+
 
 /* recently played / created for / popular artist*/
 
