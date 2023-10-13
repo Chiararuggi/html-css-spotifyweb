@@ -13,6 +13,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main class="main-container">
@@ -219,17 +225,21 @@
           >
           <div class="secondcol-row">
             <div class="circle-card">
-              <img src="./img/youg.jpeg" alt="music-img" class="circle-img"/>
+              <img src="./img/youg.jpeg" alt="music-img" class="circle-img" />
               <div class="description-song">
-                <h2 class="c-white f-size18px padding-0-4remf">
-                  Lana del Rey
-                </h2>
+                <h2 class="c-white f-size18px padding-0-4remf">Lana del Rey</h2>
               </div>
             </div>
             <div class="circle-card">
-              <img src="./img/einaudi.jpeg" alt="music-img" class="circle-img"/>
+              <img
+                src="./img/einaudi.jpeg"
+                alt="music-img"
+                class="circle-img"
+              />
               <div class="description-song">
-                <h2 class="c-white f-size18px padding-0-4remf">Ludovico Einaudi</h2>
+                <h2 class="c-white f-size18px padding-0-4remf">
+                  Ludovico Einaudi
+                </h2>
               </div>
             </div>
           </div>
@@ -241,12 +251,14 @@
       <!--footer row-->
       <div class="footer-row">
         <!--1 footer col-->
-        <div class="col justify-center">
+        <div class="small-footer-col justify-center">
           <div class="row">
-            <div class="row">
-              <img src="./img/sinister.jpeg" class="footer-img">
-              <div class="col justify-center"><h2 class="c-white f-size14px">Sinister</h2>
-              <span class="c-lightgrey f-size12px">Brano nome</span></div>
+            <div class="music-row">
+              <img src="./img/sinister.jpeg" class="footer-img" />
+              <div class="col justify-center">
+                <h2 class="c-white f-size14px">Sinister</h2>
+                <span class="c-lightgrey f-size12px">Brano nome</span>
+              </div>
               <div class="heart-file c-lightgrey">
                 <i class="fa-regular fa-heart margin-l4rem margin-r0-8remf"></i>
                 <i class="fa-regular fa-folder"></i>
@@ -255,12 +267,39 @@
           </div>
         </div>
         <!--2 footer col-->
-        <div class="col">
-          <div class="row"></div>
-          <div class="row"></div>
+        <div class="big-footer-col f-size20px">
+          <div class="bigfooter-row c-white">
+            <i class="fas fa-shuffle padding-r1rem"></i>
+            <i class="fas fa-backward-step padding-r2rem"></i>
+            <i class="fa-regular fa-circle-play f-size35px padding-r2rem"></i>
+            <i class="fas fa-forward-step padding-r1rem"></i>
+            <i class="fa-solid fa-arrow-rotate-right"></i>
+          </div>
+          <div class="smallfooter-row">
+            <span class="c-white f-size12px f-weightbold margin-r1rem"
+              >0:25</span
+            >
+            <div class="slider">
+              <div class="white-slider"></div>
+              <div class="darkgrey-slider"></div>
+            </div>
+            <span class="c-white f-size12px f-weightbold margin-l1rem"
+              >4:35</span
+            >
+          </div>
         </div>
         <!--3 footer col-->
-        <div class="col"></div>
+        <div class="small-footer-col">
+          <div class="thirdfooter-row c-white f-size15px">
+            <i class="fas fa-bars padding-r1rem"></i>
+            <i class="fa-solid fa-tv padding-r1rem"></i>
+            <i class="fa-solid fa-volume-high padding-r1rem"></i>
+            <div class="volume-slider padding-r1rem">
+              <div class="volume-white-slider"></div>
+              <div class="volume-darkgrey-slider"></div>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
