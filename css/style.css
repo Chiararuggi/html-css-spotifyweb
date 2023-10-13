@@ -203,6 +203,7 @@
     flex-direction: column;
     padding: 0.5rem 1rem;
     width: 16%;
+    position: relative;
 }
 
 .circle-card{
@@ -214,7 +215,11 @@
 }
 
 .play{
-    display: none;
+    font-size: 7rem;
+    position:absolute;
+    top: 20%;
+    right: 33%;
+    opacity: 0;
 }
 
 .circle-img{
@@ -366,13 +371,19 @@
     color: white;
 }
 
-.card-img:hover{
+.square-card-hover:hover{
    filter: brightness(50%);
 }
 
 .circle-img:hover{
     filter: brightness(50%);
 }
+
+.play:hover{
+    opacity: 1;
+}
+
+
 
 /* Media query*/
 
