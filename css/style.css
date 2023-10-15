@@ -379,6 +379,33 @@
     filter: brightness(50%);
 }
 
+.fa-heart:hover{
+    color: white;
+}
+
+.fa-folder:hover{
+    color: white;
+}
+
+.song-name:hover{
+    text-decoration: underline;
+}
+
+.play-but:hover{
+    font-size: 40px;
+}
+
+.white-slider:hover{
+    border: 3px solid #adff2f;
+    width: 8rem;
+    border-radius: 4px 4px 3px 5px;
+}
+
+.volume-white-slider:hover{
+    border: 3px solid #adff2f;
+    width: 2rem;
+    border-radius: 4px 4px 3px 5px;
+}
 
 
 /* Media query*/
