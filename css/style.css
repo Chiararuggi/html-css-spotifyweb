@@ -371,16 +371,12 @@
     color: white;
 }
 
-.square-card-hover:hover{
-   filter: brightness(50%);
-}
-
-.circle-img:hover{
-    filter: brightness(50%);
-}
-
-.play:hover{
+.card-hover:hover .play{
     opacity: 1;
+}
+
+.card-hover:hover img{
+    filter: brightness(50%);
 }
 
 
