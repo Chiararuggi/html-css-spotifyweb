@@ -427,6 +427,8 @@
 
     /* footer */
 
+
+
 }
 
 /* Media query: mobile */
@@ -462,6 +464,14 @@
     }
 
     /* menu */
+
+    .green-bar{
+        display: none;
+    }
+
+    .home-menu-item p{
+        display: none;
+    }
 
     .menu-item{
         padding: 0;
